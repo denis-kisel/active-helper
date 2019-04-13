@@ -1,0 +1,36 @@
+{
+    "name": "denis-kisel/active-helper",
+    "description": ":ActiveHelper class for laravel",
+    "authors": [
+        {
+            "name": "Denis Kisel",
+            "email": "denis.kisel92@gmail.com",
+            "homepage": "http://digital-elephant.com.ua"
+        }
+    ],
+    "homepage": "https://github.com/denis-kisel/active-helper",
+    "keywords": ["Laravel", "ActiveHelper"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DenisKisel\\ActiveHelper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DenisKisel\\ActiveHelper\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DenisKisel\\ActiveHelper\\ActiveHelperServiceProvider"
+            ],
+            "aliases": {
+                "ActiveHelper": "DenisKisel\\ActiveHelper\\Facades\\ActiveHelper"
+            }
+        }
+    }
+}
