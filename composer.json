@@ -1,6 +1,7 @@
 {
     "name": "denis-kisel/active-helper",
     "description": ":ActiveHelper class for laravel",
+    "license": "MIT",
     "authors": [
         {
             "name": "Denis Kisel",

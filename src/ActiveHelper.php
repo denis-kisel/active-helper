@@ -29,4 +29,17 @@ class ActiveHelper
             'off' => ['value' => 0, 'text' => self::disableText(), 'color' => 'danger'],
         ];
     }
+
+    public static function radio()
+    {
+        return [self::DISABLE => self::disableText(), self::ENABLE => self::enableText()];
+    }
+
+    public static function select()
+    {
+        return [
+            self::DISABLE => self::disableText(),
+            self::ENABLE => self::enableText(),
+        ];
+    }
 }
