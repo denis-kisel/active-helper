@@ -9,12 +9,12 @@ class ActiveHelper
 
     public static function disableText()
     {
-        return 'Off';
+        return __('app.off');
     }
 
     public static function enableText()
     {
-        return 'On';
+        return __('app.on');
     }
 
     public static function editable()
